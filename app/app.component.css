@@ -1,0 +1,33 @@
+:host {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    float: left;
+    width: 250px;
+    margin: 10px 0 0 10px;
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+}
+nav h4 {
+    font-size: 25px;
+}
+#task-panel {
+    margin-left: 250px;
+}
+h1.application-title {
+    padding: 0 0 6px 65px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+}
+nav a {
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #E03237;
+}
+nav a.active {
+    border-radius: 3px;
+    padding: 2px 8px;
+    background-color: #E03237;
+    color:white;
+}
